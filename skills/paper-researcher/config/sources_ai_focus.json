@@ -1,0 +1,64 @@
+{
+  "sources": [
+    {
+      "name": "arxiv",
+      "enabled": true,
+      "description": "arXiv - LLM, AI infra, agent, AI security focus",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG",
+        "cs.CR"
+      ],
+      "max_results": 15,
+      "update_interval": "daily"
+    },
+    {
+      "name": "huggingface",
+      "enabled": true,
+      "description": "HuggingFace daily papers",
+      "url": "https://huggingface.co/papers",
+      "max_results": 10,
+      "update_interval": "daily"
+    }
+  ],
+  "output_format": {
+    "include_abstract": true,
+    "include_authors": true,
+    "include_links": true,
+    "language": "zh-CN"
+  },
+  "filter": {
+    "keywords": [
+      "LLM",
+      "large language model",
+      "AI infrastructure",
+      "agent",
+      "AI security",
+      "transformer",
+      "reasoning",
+      "GPT",
+      "BERT",
+      "ChatGPT",
+      "machine learning",
+      "neural network",
+      "adversarial",
+      "privacy",
+      "inference"
+    ],
+    "exclude_keywords": [
+      "survey",
+      "review paper",
+      "survey paper",
+      "overview",
+      "taxonomy",
+      "literature review",
+      "systematic review",
+      "meta-analysis",
+      "a survey of",
+      "survey on",
+      "review on",
+      "综述"
+    ]
+  }
+}

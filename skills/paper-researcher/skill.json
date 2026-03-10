@@ -1,0 +1,24 @@
+{
+    "name": "paper_researcher",
+    "version": "2.0.0",
+    "description": "Unified paper discovery, download, Zotero sync, and deep analysis.",
+    "author": "OpenClaw User",
+    "type": "utility",
+    "trigger": {
+        "keywords": [
+            "深度阅读",
+            "研读论文",
+            "research paper",
+            "save to zotero",
+            "今日论文",
+            "paper digest"
+        ]
+    },
+    "dependencies": [
+        "pymupdf",
+        "arxiv",
+        "requests",
+        "beautifulsoup4"
+    ],
+    "entry": "main.py"
+}
